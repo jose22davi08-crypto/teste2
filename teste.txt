@@ -1,1 +1,34 @@
-sadasdasdasas
+PS C:\Users\jose.davi.silva.017\Desktop\testegit> git init
+Initialized empty Git repository in C:/Users/jose.davi.silva.017/Desktop/testegit/.git/
+PS C:\Users\jose.davi.silva.017\Desktop\testegit> git add .
+PS C:\Users\jose.davi.silva.017\Desktop\testegit> git commit -m "Teste git"
+[master (root-commit) dbe1e27] Teste git
+ Committer: JOSE DAVI DA SILVA <jose.davi.silva.017@ad.ufrn.br>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 teste.txt
+PS C:\Users\jose.davi.silva.017\Desktop\testegit> git remote add origin git@github.com:jose22davi08-crypto/teste2.git
+PS C:\Users\jose.davi.silva.017\Desktop\testegit> git push -u origin master
+The authenticity of host 'github.com (4.228.31.150)' can't be established.
+ED25519 key fingerprint is: SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 240 bytes | 120.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:jose22davi08-crypto/teste2.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
